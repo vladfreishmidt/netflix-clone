@@ -17,7 +17,7 @@ export const Item = styled.div`
   color: #fff;
   margin-bottom: 10px;
   margin: auto;
-  max-width: 670px;
+  max-width: 700px;
   width: 100%;
 
   &:first-of-type {
@@ -47,18 +47,18 @@ export const Header = styled.div`
   }
 
   @media (max-width: 600px) {
-      fonst-size: 16px;
-    }
+    fonst-size: 16px;
+  }
 `;
 
 export const Body = styled.div`
   max-height: 1200px;
-  transition: max-height .25s cubic-bezier(0.5, 0, 0.1, 1);
+  transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
   fonst-size: 26px;
   font-weight: normal;
   line-height: normal;
   background: #303030;
-  padding: .8em 2.2em 0.8em 1.2em;
+  padding: 0.8em 2.2em 0.8em 1.2em;
   white-space: pre-wrap;
   user-select: none;
 
